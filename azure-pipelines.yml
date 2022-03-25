@@ -61,8 +61,8 @@ stages:
     
   
     - task: AzureFunctionApp@1
-            displayName: 'Azure Function Deploy: leaderboard'
-            inputs:
+      displayName: 'Azure Function Deploy: leaderboard'
+      inputs:
               azureSubscription: 'Resource Manager - Tailspin - Space Game'
               appType: functionAppLinux
               appName: '$(LeaderboardAppName)'
